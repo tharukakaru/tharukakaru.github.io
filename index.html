@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<haed>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel='stylesheet' href="style.css">
+    <script src="<script src="https://kit.fontawesome.com/b97b9f96cb.js" crossorigin="anonymous">"</script>"
+</haed>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="imgg/202011.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#talents">Talents</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UNDERGRADUATE</p>
+            <h1>Hi, I'm <span>Tharuka</span><br>Karunarathne From Sri Lanka</h1>
+        </div>
+    </div> 
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="imgg/2021.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, I am Tharuka Karunarathne from Sri Lanka and I'm an undergraduate student in SLTC (Sri Lanka Technological Campus). I'm studying Bachelor of science honours in Software Engineering. I do drawings,listening music,reading books,shopping,watching movies and kinda stuff as hobbies. Also I'am an International Judo Player. Tbh I'm a highly motivated individual with a strong work ethic and a passion for achieving success. I take pride in my ability to make informed decisions and take decisive action with my perseverance, strategic thinking and commitment to excellence, I believe that I can be a valuable asset to any team or organization.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>International Judo Player</span><br>Owned Number Of Medals in National and International levels.</li>
+                        <li><span>Visharadha in Tabla</span><br>Owned All Island Level Victories.</li>
+                        <li><span>Chess Player</span><br>Owned All Island Level Victories.</li>
+                        <li><span>Soft Skills</span><br>Hard Working, Team Work, Flexibility, Adaptability, Intelligence, etc.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - Current</span><br>Undergraduate student of SE at SLTC.</li>
+                        <li><span>2014</span><br>Represented Sri Lanka at India.</li>
+                        <li><span>2016</span><br>Represented Sri Lanka at Hungary.</li>
+                        <li><span>2018</span><br>Represented Sri Lanka at France.</li>
+                        <li><span>2019</span><br>Represented Sri Lanka at Japan.</li>
+                        <li><span>2019</span><br>Represented Sri Lanka at Thailand.</li>
+                        <li><span>2020</span><br>Represented Sri Lanka at Indonesia.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - Current</span><br>Undergraduate student of SE at SLTC.</li>
+                        <li><span>2022</span><br>Diploma at IMBS Green Campus</li>
+                        <li><span>2021</span><br>Diploma at Esoft Metro Campus</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+<!-- --------telents--------------- -->
+<div id="talents">
+    <div class="container">
+        <h1 class="sub-title">Extra Curricular Activities</h1>
+        <div class="talents-list">
+            <div>
+                <i class="fa-solid fa-uniform-martial-arts"></i>
+                <h2>Judo</h2>
+                <p>I started Judo when I was in Grade 4 and I have number of medals including tophies. Also I'm an International player, I represented Sri Lanka at several countries. Judo is like half of my life. So I hope to continue this sport till the rest of my life.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-palette"></i>
+                <h2>Drawing</h2>
+                <p>I do Drawings as a hobby cuz It's a different vibe. It really helps me to conduct my feelings. So most of the time, I do drawings when I feel angry,sad or more happy about something. Also It helps to practice focussing on something.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div>
+                <i class="fa-duotone fa-book"></i>
+                <h2>Reading Books</h2>
+                <p>I do reading books as a hobby. It really helps to get to know about different types of people in the world without beign socializing. Also It helps to have experiences through mind without facing to it in real life.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chess"></i>
+                <h2>Chess</h2>
+                <p>Well, Tbh I'm not a very good player at chess but I really love that game. Also I have all island level victories in Chess and I was a player at school senior chess team. Chess is a good game. It gives a good exercise to your brain.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="imgg/112.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imgg/113.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imgg/114.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- --------------contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>tharukakarunarathne60@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+94 760755652</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100083376486497&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_thxruoe_?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@amendastephanie1404"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.twitter.com/@tharukakarunarathne"><i class="fa-brands fa-twitter-square"></i></a>
+                </div>
+                <a href="imgg/CV.N.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Tharuka. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+</div>
+    
+    
+    
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+    
+<script>
+    
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwNP38zPXSkMch6WoD038bNABh1jEMrnl9kGZtqF_ifP4JmEwP5Zeah7qZ4jWzrch3pjg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+              msg.innerHTML = ""
+          },5000)
+          form.reset()
+      })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>   
+</body>
+</html>
